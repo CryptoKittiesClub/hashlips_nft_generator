@@ -1,0 +1,22 @@
+HASHLIPS
+
+1) npm install
+2) crear layers y ponerlos en la carpeta "layers" (NO USAR GUIONES NI NADA RARO)
+3) cambiar en src>config.js:
+	1) la red (network) --> .sol
+	2) nombre de la coleccion (namePrefix) --> Crypto Kitties Club
+	3) descripción de la colección
+	4) simbolo de la colección (el nombre que aparece en phantom)
+	5) el porcentaje que nos quedamos por la venta de nfts (1000 = 10%)
+	6) sacar el url externo
+	7) cambiar la dirección a donde van a ir los porcentajes de venta
+	8) tamaño de la colección
+	9) los nombres de los layers
+	10) tamaño de las imagenes
+
+4) npm run generate (usar node 14.18.1 desde cmd como admin)
+5) otros comandos:
+	1) npm run pixelate
+	2) npm run preview
+	3) npm run preview_gif
+	4) npm run rarity
